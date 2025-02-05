@@ -61,5 +61,5 @@ To interact with the bot, users can send commands and messages. The bot will res
 
        ©𝟮𝟬𝟮𝟰-2025 𝗚𝗜𝗙𝗧𝗘𝗗 𝗧𝗘𝗖𝗛
 
-- **CHECK OUT MY [WHATSAPP BOT PROJECT](https://github.com/mouricedevs/giiftedmd) HERE**
+- **CHECK OUT MY [WHATSAPP BOT PROJECT](https://github.com/mouricedevske/gifted-md) HERE**
 
