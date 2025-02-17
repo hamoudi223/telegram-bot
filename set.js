@@ -8,6 +8,7 @@ global.timeZone = 'Africa/Nairobi'; // Your Time Zone
 global.ownerId = [xxxxxx]; // Replace With Your Owner ID(For Bot Owner), You Can Add More than 1
 global.footer = '*Powered by GiftedTech*';
 global.ytdlWeb = 'https://ytdl.giftedtech.web.id';
+global.ytdlApi = 'https://giftedtech-ytdl-api.hf.space';
 global.giftedApi = 'https://api.giftedtech.web.id/api'; // Gifted Api
 global.giftedKey = ''; // Gifted Api Key
 global.maherApi = 'https://api.nexoracle.com'; // NexOracle Api
