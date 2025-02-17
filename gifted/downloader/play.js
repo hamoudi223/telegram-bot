@@ -24,8 +24,8 @@ module.exports = {
             const videoUrl = video.url;
 
             try {
-                const apiResponse = await axios.get(`${global.giftedApi}/download/dlmp3?apikey=${global.giftedKey}&url=${videoUrl}`);
-                const downloadUrl = apiResponse.data.result.download_url;
+                const apiResponse = await axios.get(`${global.ytdlApi}/api/yt?query=${searchTerm}`);
+                const downloadUrl = apiResponse.data.result.audio_url;
                 const fileName = apiResponse.data.result.title;
 
                 if (!downloadUrl) {
@@ -34,7 +34,7 @@ module.exports = {
 
                 let giftedButtons = [
                 [
-                    { text: 'Audio Url', url: `${downloadUrl}` },
+                    { text: 'Ytdl Web', url: `${global.ytdlWeb}` },
                     { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' }
                 ]
             ]
